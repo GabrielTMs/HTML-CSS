@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias formatos</title>
+</head>
+<body>
+    <h1>Imagens em formatos diferentes</h1>
+    <p>Imagens feitas para diferentes objetos <br> como celular e pc</p>
+    
+    <picture>
+        
+        <source media="(max-width:750px )" srcset="Imagens/Pequeno.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/Medio.png" type="image/png">
+        <img src="Imagens/Grande.png" alt="Imagem de tamanho grande.">
+    </picture>
+
+    <audio preload="metadata" controls>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <p>Infelizmente não foi possível reproduzir o audio, caso queira acesse esse <a href="midia/happy-mistake.mp3" type="_blank" rel="external">link</a> para ouvi-lo.</p>
+      
+
+    
+    </audio>
+    
+    
+</body>
+</html>

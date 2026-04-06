@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos CSS</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(43, 112, 37);
+        }
+        a:visited {
+            color: rgb(106, 160, 116);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgb(44, 228, 179);
+        }
+        a::before {
+            content:'⇒';
+            color: rgb(163, 39, 49);
+        }
+        a::after {
+            content:'⇐';
+            color: rgb(163, 39, 49);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Abaixo links de sites</h1>
+    <ul type="disc">
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">Github do gustavo guanabara</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="external">Vídeo do Gustavo Guanabara</a></li>
+
+    </ul>
+</body>
+</html>

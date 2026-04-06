@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+        div:hover {
+            color: #434399;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: #b42d2d;
+            background-color: rgb(154, 202, 202);
+            width: 400px;
+            padding: 10px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Abaixo está um exemplo de uma pseudo-classe hover</h1>
+    <div>
+        <h2>Clicando em mim mostrará um outro texto</h2>
+        <p>Esse texto é o que aparece quando utiliza a pseudo-classe hover.</p>
+    </div>
+    
+    
+    <a href="../divisoes.html"><img src="../Image_go_back/goback.png" alt="Goback Option"></a>
+    
+</body>
+</html>

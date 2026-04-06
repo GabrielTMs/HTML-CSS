@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+     body {
+        text-align: justify;
+        background-color: #bea38d;     
+        font-family: Arial, Helvetica, sans-serif
+        
+        
+             
+     }
+     h1 {
+        background-color: #2f3e6e;
+        padding: 10px 15px;
+        color: #fcfcfc;
+        margin: 10px auto;
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #14182c;
+     }
+     
+     nav>a {
+         text-decoration: none;
+         color: rgb(114, 129, 197);
+         font-weight: bold;
+         
+     }
+     nav>a:hover {
+        text-decoration: underline;
+        color: black;
+               
+    }
+    #links {
+        background-color: #402e68;
+        color: #cacaca;
+        padding: 10px ;
+        height: 100px;
+        width: 600px;
+        border-radius: 5px;
+    }
+main {
+    background-color: #a7a7a7;
+    padding: 5px 10px;
+    width: 800px;
+    height: 292px;
+    margin: 10px 0px;
+    border-radius: 8px;
+}
+
+#noticias {
+         outline-width: 2px;
+         outline-style: solid;
+         outline-color: #b81a1a8e;
+         padding: 5px;
+         margin: 4px 2px;
+}
+
+#Artigos {
+         outline-width: 2px;
+         outline-style: solid;
+         outline-color: #583c21be;
+         padding: 5px;
+         margin: 6px 2px;
+         height: 160px;
+
+}
+article>aside {
+    display: none;
+}
+article:hover>aside {
+    display: block;
+    color: rgb(18, 34, 51);
+}
+footer {
+    background-color: rgba(39, 39, 39, 0.295);
+    border-radius: 10px;
+    padding: 6px 0px;
+    color: white;
+    text-align: center;
+    width: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+h2 {
+    margin: 0px;
+}
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aprendendo sobre grouping tags.</h1>
+        <section id="links">
+            <h2>Abaixo seguem alguns links</h2>
+            <nav>
+                <a href="#">Link teste.</a>
+                <a href="#">Link teste.</a>
+                <a href="#">Link teste.</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Caminhão tombado na 23 de maio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde a vero similique sequi in numquam eligendi expedita molestiae. A inventore ex eligendi fuga ea expedita vel in tenetur tempora exercitationem.</p>
+
+            </article>
+
+        </section>
+        <section id="Artigos">
+            <article>
+                <h2>Abaixo seguem uma fala de Rocha Maria.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est blanditiis, ad quisquam modi reiciendis reprehenderit veritatis provident ratione error fuga quas exercitationem soluta at impedit, officia maxime, nostrum animi cumque.</p>
+              <aside class="source">
+                <p>Artigo escrito por Rocha Maria.</p>
+              </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Site desenvolvido com HTML.
+    </footer>
+
+    
+</body>
+</html>

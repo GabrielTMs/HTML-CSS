@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color:#435E61;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+   background-color: #785B84; 
+   padding: 10px;
+   border-radius: 10px;
+   color: rgb(240, 241, 241);
+   text-align: center;
+   width: 600px;
+   margin: auto;
+}
+
+.titulo {
+       color: #986dcf;
+}
+
+h2#Titulo1 {
+    color: rgb(105, 185, 105);
+}
+
+.subtitulo {
+        color: rgb(25, 36, 16);
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.destaque {
+       background-color: rgb(170, 204, 235);
+       width: 280px;
+       padding: 10px;
+       border-radius: 6px;
+}
+
+.destaque2 {
+       background-color: rgb(170, 204, 235);
+       width: 200px;
+       padding: 10px;
+       border-radius: 6px;
+}
