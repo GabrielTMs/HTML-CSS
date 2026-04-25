@@ -4,11 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poesia</title>
+    <style>
+        @charset "UTF-8";
+        * {
+            margin: 0px;
+            padding: 0px;
+            text-align: justify;
+        }
+        @font-face {
+            font-family: 'TituloFonte' ;
+            src: url('Fontes/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'SubFont' ;
+            src: url(Fontes/Subtitulos-e-artigos-fonte/MozillaText-VariableFont_wght.ttf) format(truetype);
+        }
+        :root {
+            --cor1:#795743;
+            --cor2:#201912;
+            --cor3:#BA6F43;
+            --cor4:#58C4F5;
+            --cor5:#657075;
+            --cor6:#B0C4CD;
+        }
+        body {
+            background-image: linear-gradient(to bottom, #d1d8db, #abb1b696);
+            background-attachment: fixed;
+        }
+        h1 {
+            font-family: 'TituloFonte', Times, serif;
+            font-size: 5em;
+            color:#c6cfd3;
+            margin: 0px;
+            text-align: center;
+            padding: 10px 0px 3px 0px;
+        }
+        #textoPrinc {
+            color:#c6cfd3;
+            text-align: center;
+            font: normal 1.3em 'SubFont', Verdana, sans-serif ;
+            padding:0px 0px 15px 0px;
+            margin: 0px;
+        }
+        header {
+            background-color: #201912;
+        }
+        p {
+            font:italic normal 1.8em 'SubFont', Verdana, sans-serif ;
+            line-height: 55px;
+            margin: 11vh 0vh 11vh 0vh;
+            padding-left: 10px;
+            
+        }
+        footer .creditos {
+            font:normal 1.1em 'SubFont', Verdana, sans-serif ;
+            text-align: center;
+            background-color: var(--cor5);
+            padding: 10px 0px 10px 0px;
+            color: var(--cor6);
+            margin: 0px;
+        }
+        .separacao {
+            background-color:#8994999c;
+            border-radius: 10px;
+            padding-left: 10px;
+            max-width: 495px;
+            min-width: 100px;
+            margin: 0px;
+        }
+        .imagemfundopoem {
+            padding-top: 15vh;
+            padding-left: 6px;
+            padding-bottom: 15vh;
+            width: 100%;
+            background-image: url(imagens/balanca-comercial-superavit_widelg.png);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: left center;
+            background-size: 60%;
+            border-radius: 6px;
+            
+        }
+        h2 {
+            padding-left: 10px;
+            font: normal bold 2.3em 'SubFont', Verdana, sans-serif ;;
+        }
+        
+        
+    </style>
 </head>
 <body>
 <header>
     <h1>Poemas de Acordos</h1>
-    <p>Teste para desafio</p>
+    <p id="textoPrinc">Teste para desafio</p>
 </header>
 <main>
     <section class="Subtitulos">
@@ -16,19 +104,24 @@
     </section>
     
     <article>
-        <p>Uma das partes
-        Sempre sai arrependida
+        <p>Uma das partes <br>
+        Sempre sai arrependida <br>
         Nas minhas negociações internas</p>
         
-        <p>Esse estranho equilibrismo
-        Cada pé para rumo oposto
-        Devia ser para sobreviver
-        (restam raros respiros entretanto)
-        
-        Quanto espaço falta às minhas vontades de
-        cantar à mágica nas coisas?
-        
-        Sujeitinho possível, esse eu</p> 
+    
+            <section class="imagemfundopoem">
+                <p class="separacao">Esse estranho equilibrismo <br>
+                Cada pé para rumo oposto <br>
+                Devia ser para sobreviver <br>
+                (restam raros respiros entretanto)</p>
+            
+            </section>
+    
+        <p>
+            Quanto espaço falta às minhas vontades de <br>
+            cantar à mágica nas coisas? <br>
+            Sujeitinho possível, esse eu.
+        </p> 
     </article>
         <nav>
             <p>Poema feito por Hevanderson.</p>
@@ -39,45 +132,51 @@
         </section>
         
         <article>
-            <p> A porta da verdade estava aberta,
-            mas só deixava passar
+            <p> A porta da verdade estava aberta, <br>
+            mas só deixava passar <br>
             meia pessoa de cada vez.</p>
             
-            <p>Assim não era possível atingir toda a verdade,
+            <p>Assim não era possível atingir toda a verdade, <br>
             
-            porque a meia pessoa que entrava
+            porque a meia pessoa que entrava <br>
             
-            só trazia o perfil de meia verdade.
+            só trazia o perfil de meia verdade. <br></p>
             
-            E sua segunda metade
+            <p>E sua segunda metade <br>
             
-            voltava igualmente com meio perfil.
+            voltava igualmente com meio perfil. <br>
             
             E os meios perfis não coincidiam.</p>
             
-            <p>Arrebentaram a porta. Derrubaram a porta.
+            <p>
+                Arrebentaram a porta. Derrubaram a porta. <br>
+                
+                Chegaram ao lugar luminoso <br>
+                
+                onde a verdade esplendia seus fogos. <br>
+            </p>
             
-            Chegaram ao lugar luminoso
+            <p>
+                Era dividida em metades <br>
+                
+                diferentes uma da outra.
+                
+                Chegou-se a discutir qual a metade mais bela. <br>
+            </p>
             
-            onde a verdade esplendia seus fogos.
-            
-            Era dividida em metades
-            
-            diferentes uma da outra.</p>
-            
-            <p>Chegou-se a discutir qual a metade mais bela.
-            
-            Nenhuma das duas era totalmente bela.
-            
-            E carecia optar. Cada um optou conforme
-            
-            seu capricho, sua ilusão, sua miopia.</p>
+            <p>
+                Nenhuma das duas era totalmente bela. <br>
+                
+                E carecia optar. Cada um optou conforme <br>
+                
+                seu capricho, sua ilusão, sua miopia.
+            </p>
         </article>
         <nav>
             <p>Poema feito por Hevanderson.</p>
         </nav>
     <footer>
-        <p>Feito por Gabriel Torres Martins</p>
+        <p class="creditos">Feito por Gabriel Torres Martins</p>
     </footer>
 </main>
 
