@@ -87,9 +87,46 @@
             border-radius: 6px;
             
         }
+        .imagemfundopoem2 {
+            padding-top: 15vh;
+            padding-left: 6px;
+            padding-bottom: 15vh;
+            background-image: url(imagens/coin.jpg);
+            background-repeat:repeat-x;
+            background-position: center center;
+            background-size:1700px 1200px;
+            background-attachment: fixed;
+            border-radius: 6px;
+        }
         h2 {
             padding-left: 10px;
-            font: normal bold clamp(1.8em, 3.8vw, 2.3em) 'SubFont', Verdana, sans-serif ;;
+            padding-top: 46px;
+            font: normal bold clamp(1.8em, 3.8vw, 3em) 'SubFont', Verdana, sans-serif ;
+        }
+        .SegundoSubt {
+            padding-left: 10px;
+            padding-top: 18px;
+            font: normal bold clamp(1.8em, 3.8vw, 3em) 'SubFont', Verdana, sans-serif ;
+        }
+        nav > .navPoem {
+            font:normal clamp(0.5em, 3vw, 1.6em) 'SubFont', Verdana, sans-serif ;
+            margin: 5vh 0vh 5vh 0vh;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: var(--cor5);
+            padding: 0.7vh 0.7vh 0.7vh 0.7vh;
+        }
+        a:hover {
+            text-decoration: underline;
+            background-image: linear-gradient(to top, #b8d0dd, transparent);
+            border-radius: 8px;
+            transition-duration: 0.5s;
+        }
+        img {
+            margin-left: 2.5px;
         }
         
         
@@ -126,11 +163,12 @@
         </p> 
     </article>
         <nav>
-            <p>Poema feito por Hevanderson.</p>
+            <p class="navPoem">Poema feito por <a href="https://natrodrigo.wordpress.com/tag/negociacao/
+" target="_blank" rel="external">Hevanderson.<img src="imagens/WorldWebSymbol.png" alt="simbolo de link"></a></p>
         </nav>
         
         <section class="Subtitulos">
-            <h2>Verdade</h2>
+            <h2 class="SegundoSubt">Verdade</h2>
         </section>
         
         <article>
@@ -158,13 +196,15 @@
                 onde a verdade esplendia seus fogos. <br>
             </p>
             
-            <p>
-                Era dividida em metades <br>
+            <section class="imagemfundopoem2">
+                <p class="separacao">
+                    Era dividida em metades <br>
                 
-                diferentes uma da outra.
+                    diferentes uma da outra.
                 
-                Chegou-se a discutir qual a metade mais bela. <br>
-            </p>
+                    Chegou-se a discutir qual a metade mais bela. <br>
+                </p>
+            </section>
             
             <p>
                 Nenhuma das duas era totalmente bela. <br>
@@ -175,7 +215,7 @@
             </p>
         </article>
         <nav>
-            <p>Poema feito por Hevanderson.</p>
+            <p class="navPoem">Poema feito por <a href="https://natrodrigo.wordpress.com/tag/negociacao/">Carlos Drummond de Andrade. <img src="imagens/WorldWebSymbol.png" alt="simbolo de link"></a></p>
         </nav>
     <footer>
         <p class="creditos">Feito por Gabriel Torres Martins</p>
