@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 100%;
+            max-width: 500px;
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td.num {
+            text-align: right;
+        }
+        .filme {
+            text-align: left;
+        }
+        th {
+            background-color: rgb(75, 75, 75);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Começando as tabelas grandes.</h1>
+    <h2>Maiores bilheterias mundiais</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Ranking</th>
+                <th>Ano</th>
+                <th>Filme</th>
+                <th>Bilheteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2009</td>
+                <td class="filme">Avatar</td>
+                <td class="num">2 923 706 026</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2019</td>
+                <td class="filme">Vingadores:Ultimato</td>
+                <td class="num">2 799 439 100</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2022</td>
+                <td class="filme">Avatar:O caminho da Água</td>
+                <td class="num">2 320 250 281</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1997</td>
+                <td class="filme">Titanic</td>
+                <td class="num">2 264 743 305</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2025</td>
+                <td class="filme">Ne Zha 2</td>
+                <td class="num">2 215 690 000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Ranking</th>
+                <th>Filme</th>
+                <th class="inflacao">Inflação ajustada</th>
+                <th>Ano</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="filme">Gone with the Wind</td>
+                <td class="num">4 340 000 000</td>
+                <td>1939</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="filme">Avatar</td>
+                <td class="num">3 950 000 000</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="filme">Titanic</td>
+                <td class="num">3 670 000 000</td>
+                <td>1997</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
