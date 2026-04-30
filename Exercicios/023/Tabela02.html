@@ -9,8 +9,14 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: 500px;
+            width: 600px;
             border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(75, 75, 75);
         }
         th,td {
             border: 1px solid black;
@@ -27,12 +33,18 @@
             background-color: rgb(75, 75, 75);
             color: white;
         }
-        .maiortam {
-            width: 100px;
+        th.maiortam {
+            width: 300px;
+        }
+        tbody>tr:nth-child(odd) {
+            background-color: rgba(128, 128, 128, 0.438);
         }
         caption {
             font:normal bold 1.5em Arial, Helvetica, sans-serif;
             padding-bottom: 16px;
+        }
+        p {
+            font: normal 1em Arial, Helvetica, sans-serif;;
         }
     </style>
 </head>
@@ -79,6 +91,48 @@
                 <td class="filme">Ne Zha 2</td>
                 <td class="num">2 215 690 000</td>
             </tr>
+            <tr>
+                <td>6</td>
+                <td>2015</td>
+                <td class="filme">Star Wars: O Despertar da Força</td>
+                <td class="num">2 068 223 624</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>2018</td>
+                <td class="filme">Vingadores: Guerra Infinita</td>
+                <td class="num">2 052 415 039</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>2021</td>
+                <td class="filme">Homem-Aranha: Sem Volta para Casa</td>
+                <td class="num">1 921 426 073</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>2025</td>
+                <td class="filme">Zootopia 2</td>
+                <td class="num">1 866 590 453</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>2024</td>
+                <td class="filme">Divertida Mente 2</td>
+                <td class="num">1 698 778 437</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>2015</td>
+                <td class="filme">Jurassic World</td>
+                <td class="num">1 671 537 444</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>2019</td>
+                <td class="filme">O Rei Leão</td>
+                <td class="num">1 663 075 401</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -111,6 +165,10 @@
             </tr>
         </tfoot>
     </table>
-    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut assumenda eos nulla iste, ad ab! Atque facere, autem commodi maxime laborum libero harum optio, aliquid, assumenda cumque veniam eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum placeat, fugit expedita cum officiis quo incidunt, accusamus, asperiores repudiandae mollitia numquam tenetur labore impedit pariatur quis suscipit molestias nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at! Molestias consequatur earum sequi dolorum. Illum debitis quas harum nulla, adipisci aut maxime culpa officiis exercitationem, alias possimus delectus illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet odit, fugiat consequatur animi soluta fugit, atque perferendis labore dolor error tempora explicabo ex quod quasi inventore similique alias suscipit dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis, voluptates, ducimus, error molestias blanditiis culpa enim maxime quo assumenda incidunt quam repudiandae libero autem. Est doloremque libero laboriosam eveniet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut assumenda eos nulla iste, ad ab! Atque facere, autem commodi maxime laborum libero harum optio, aliquid, assumenda cumque veniam eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum placeat, fugit expedita cum officiis quo incidunt, accusamus, asperiores repudiandae mollitia numquam tenetur labore impedit pariatur quis suscipit molestias nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at! Molestias consequatur earum sequi dolorum. Illum debitis quas harum nulla, adipisci aut maxime culpa officiis exercitationem, alias possimus delectus illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet odit, fugiat consequatur animi soluta fugit, atque perferendis labore dolor error tempora explicabo ex quod quasi inventore similique alias suscipit dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis, voluptates, ducimus, error molestias blanditiis culpa enim maxime quo assumenda incidunt quam repudiandae libero autem. Est doloremque libero laboriosam eveniet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut assumenda eos nulla iste, ad ab! Atque facere, autem commodi maxime laborum libero harum optio, aliquid, assumenda cumque veniam eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum placeat, fugit expedita cum officiis quo incidunt, accusamus, asperiores repudiandae mollitia numquam tenetur labore impedit pariatur quis suscipit molestias nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at! Molestias consequatur earum sequi dolorum. Illum debitis quas harum nulla, adipisci aut maxime culpa officiis exercitationem, alias possimus delectus illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet odit, fugiat consequatur animi soluta fugit, atque perferendis labore dolor error tempora explicabo ex quod quasi inventore similique alias suscipit dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis, voluptates, ducimus, error molestias blanditiis culpa enim maxime quo assumenda incidunt quam repudiandae libero autem. Est doloremque libero laboriosam eveniet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut assumenda eos nulla iste, ad ab! Atque facere, autem commodi maxime laborum libero harum optio, aliquid, assumenda cumque veniam eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum placeat, fugit expedita cum officiis quo incidunt, accusamus, asperiores repudiandae mollitia numquam tenetur labore impedit pariatur quis suscipit molestias nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at! Molestias consequatur earum sequi dolorum. Illum debitis quas harum nulla, adipisci aut maxime culpa officiis exercitationem, alias possimus delectus illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet odit, fugiat consequatur animi soluta fugit, atque perferendis labore dolor error tempora explicabo ex quod quasi inventore similique alias suscipit dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis, voluptates, ducimus, error molestias blanditiis culpa enim maxime quo assumenda incidunt quam repudiandae libero autem. Est doloremque libero laboriosam eveniet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut assumenda eos nulla iste, ad ab! Atque facere, autem commodi maxime laborum libero harum optio, aliquid, assumenda cumque veniam eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum placeat, fugit expedita cum officiis quo incidunt, accusamus, asperiores repudiandae mollitia numquam tenetur labore impedit pariatur quis suscipit molestias nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, at! Molestias consequatur earum sequi dolorum. Illum debitis quas harum nulla, adipisci aut maxime culpa officiis exercitationem, alias possimus delectus illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet odit, fugiat consequatur animi soluta fugit, atque perferendis labore dolor error tempora explicabo ex quod quasi inventore similique alias suscipit dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis, voluptates, ducimus, error molestias blanditiis culpa enim maxime quo assumenda incidunt quam repudiandae libero autem. Est doloremque libero laboriosam eveniet.</p>
 </body>
 </html>
