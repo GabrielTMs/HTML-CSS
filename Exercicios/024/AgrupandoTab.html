@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de tabela</title>
+    <style>
+        body {
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 100%;
+            max-width: 900px;
+            border-collapse: collapse;
+            margin: 0px auto;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .centro {
+            text-align: center;
+        }
+        .verde {
+            background-color: rgb(78, 173, 78);
+        }
+        .vermelho {
+            background-color: #b94d4d;
+        }
+        .roxo {
+            background-color: #c43cc4;
+        }
+        .azul {
+            background-color: #3e60be;
+        }
+        div#corrigindoscroll {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="corrigindoscroll">
+        <table>
+            <colgroup>
+            <col class="verde">
+            <col class="vermelho"> <!--span="2"-->
+            <col class="roxo">
+            <col class="azul">
+        </colgroup>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Raimundo Carvalhos</td>
+                <td class="centro">M</td>
+                <td class="centro">26</td>
+                <td>Jornalista</td>
+                <td>Raimundo Carvalhos</td>
+                <td class="centro">M</td>
+                <td class="centro">26</td>
+                <td>Jornalista</td>
+        
+            </tr>
+            <tr>
+                <td>Ana Toffoli</td>
+                <td class="centro">F</td>
+                <td class="centro">23</td>
+                <td>Professora</td>
+                <td>Raimundo Carvalhos</td>
+                <td class="centro">M</td>
+                <td class="centro">26</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Santos Rodolfo</td>
+                <td class="centro">M</td>
+                <td class="centro">30</td>
+                <td>Programador</td>
+                <td>Raimundo Carvalhos</td>
+                <td class="centro">M</td>
+                <td class="centro">26</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Talia Fernandes</td>
+                <td class="centro">F</td>
+                <td class="centro">40</td>
+                <td>Psicóloga</td>
+                <td>Raimundo Carvalhos</td>
+                <td class="centro">M</td>
+                <td class="centro">26</td>
+                <td>Jornalista</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
