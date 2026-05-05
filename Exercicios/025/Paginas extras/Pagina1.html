@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font: normal 1em Arial,sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin: 0px auto;
+            
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(121, 121, 121);
+        }
+        
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        #Maiortam {
+            width: 250px;
+        }
+        .centro {
+            text-align: center;
+        }
+        .lefttext {
+            text-align: left;
+        }
+        tr.gray {
+            background-color: rgb(121, 121, 121);
+            color: white;
+        }
+        #container {
+            overflow: auto;
+            max-height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>Nomes de gêneros</caption>
+            <thead>
+                <tr class="gray">
+                    <th scope="col" >Sexo</th>
+                    <th scope="col" class="centro" >Nome</th>
+                    <th scope="col" id="Maiortam" class="lefttext">Endereço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="3">Feminimo</th>
+                    <td class="centro">Ana</td>
+                    <td>Rua Roberto Carlos 201</td>
+                </tr>
+                <tr>
+                    <td class="centro">Renata</td>
+                    <td>Avenida 23 de maio 304</td>
+                </tr>
+                <tr>
+                    <td class="centro">Lira</td>
+                    <td>Avenida Roberto Marinho 25</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="3">Masculino</th>
+                    <td class="centro">Renan</td>
+                    <td>Avenida Brasil 102</td>
+                </tr>
+                <tr>
+                    <td class="centro">Cortho</td>
+                    <td>Avenida Conceição 93</td>
+                </tr>
+                <tr>
+                    <td class="centro">Leandro</td>
+                    <td>Rua Leandro Reinbolço</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est unde quia, reiciendis hic, fugiat harum modi nam iusto labore excepturi tempore consequuntur nesciunt vitae porro exercitationem et, necessitatibus veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati id odit illum vel animi, harum enim ipsa magni accusamus quisquam, deleniti dignissimos natus voluptatum veritatis assumenda beatae porro! Debitis, velit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam impedit possimus quia repellat ratione ex dicta, eius suscipit consectetur id laborum ad deleniti fugit sint! Quos suscipit hic amet? Aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem architecto praesentium error reprehenderit molestiae neque velit, quaerat alias sapiente, sed modi. Consequuntur aliquam suscipit sed rerum possimus ipsa repellendus delectus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nam delectus fuga quasi quas cupiditate, in explicabo eum eius minima nemo quae totam facere? Eaque veritatis ipsum asperiores non voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est unde quia, reiciendis hic, fugiat harum modi nam iusto labore excepturi tempore consequuntur nesciunt vitae porro exercitationem et, necessitatibus veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati id odit illum vel animi, harum enim ipsa magni accusamus quisquam, deleniti dignissimos natus voluptatum veritatis assumenda beatae porro! Debitis, velit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam impedit possimus quia repellat ratione ex dicta, eius suscipit consectetur id laborum ad deleniti fugit sint! Quos suscipit hic amet? Aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem architecto praesentium error reprehenderit molestiae neque velit, quaerat alias sapiente, sed modi. Consequuntur aliquam suscipit sed rerum possimus ipsa repellendus delectus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nam delectus fuga quasi quas cupiditate, in explicabo eum eius minima nemo quae totam facere? Eaque veritatis ipsum asperiores non voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est unde quia, reiciendis hic, fugiat harum modi nam iusto labore excepturi tempore consequuntur nesciunt vitae porro exercitationem et, necessitatibus veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati id odit illum vel animi, harum enim ipsa magni accusamus quisquam, deleniti dignissimos natus voluptatum veritatis assumenda beatae porro! Debitis, velit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam impedit possimus quia repellat ratione ex dicta, eius suscipit consectetur id laborum ad deleniti fugit sint! Quos suscipit hic amet? Aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem architecto praesentium error reprehenderit molestiae neque velit, quaerat alias sapiente, sed modi. Consequuntur aliquam suscipit sed rerum possimus ipsa repellendus delectus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nam delectus fuga quasi quas cupiditate, in explicabo eum eius minima nemo quae totam facere? Eaque veritatis ipsum asperiores non voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est unde quia, reiciendis hic, fugiat harum modi nam iusto labore excepturi tempore consequuntur nesciunt vitae porro exercitationem et, necessitatibus veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati id odit illum vel animi, harum enim ipsa magni accusamus quisquam, deleniti dignissimos natus voluptatum veritatis assumenda beatae porro! Debitis, velit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam impedit possimus quia repellat ratione ex dicta, eius suscipit consectetur id laborum ad deleniti fugit sint! Quos suscipit hic amet? Aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem architecto praesentium error reprehenderit molestiae neque velit, quaerat alias sapiente, sed modi. Consequuntur aliquam suscipit sed rerum possimus ipsa repellendus delectus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nam delectus fuga quasi quas cupiditate, in explicabo eum eius minima nemo quae totam facere? Eaque veritatis ipsum asperiores non voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est unde quia, reiciendis hic, fugiat harum modi nam iusto labore excepturi tempore consequuntur nesciunt vitae porro exercitationem et, necessitatibus veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati id odit illum vel animi, harum enim ipsa magni accusamus quisquam, deleniti dignissimos natus voluptatum veritatis assumenda beatae porro! Debitis, velit? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam impedit possimus quia repellat ratione ex dicta, eius suscipit consectetur id laborum ad deleniti fugit sint! Quos suscipit hic amet? Aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem architecto praesentium error reprehenderit molestiae neque velit, quaerat alias sapiente, sed modi. Consequuntur aliquam suscipit sed rerum possimus ipsa repellendus delectus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, nam delectus fuga quasi quas cupiditate, in explicabo eum eius minima nemo quae totam facere? Eaque veritatis ipsum asperiores non voluptatum.</p>
+</body>
+</html>

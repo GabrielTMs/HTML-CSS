@@ -5,11 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <style>
-        
+        body {
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+        iframe {
+            display: block;
+            border: 1px solid black;
+            width: 100%;
+            max-width: 800px;
+            height: 56vh;
+            margin: 0px auto;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(36, 44, 56);
+        }
+        ul {
+            line-height: 30px;
+        }
+
     </style>
 </head>
 <body>
     <h1>Pagina principal do iframe</h1>
+    <ul>
+        <li><a href="Paginas extras/Pagina1.html" target="iframes">Pagina 1</a></li>
+        <li><a href="Paginas extras/Pagina2.html" target="iframes">Pagina 2</a></li>
+        <li><a href="Paginas extras/Pagina3.html" target="iframes">Pagina 3</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores est ut laborum rem maiores ullam, fuga quasi veniam officia libero eligendi, vitae voluptates id? Consectetur ullam hic nobis asperiores ratione.</p>
+    <iframe srcdoc="<h1>Olá mundo</h1>" frameborder="0" name="iframes">Seu navegador não é compatível com essa função</iframe>
     
 </body>
 </html>
