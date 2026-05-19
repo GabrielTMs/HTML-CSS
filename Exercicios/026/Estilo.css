@@ -48,10 +48,10 @@ main > section > img {
 
 iframe {
     position: absolute;
-    top: -47.8%;
+    top: -28.8%;
     left: 50%;
-    height: 51.7vh;
-    max-width: 268px;
+    height: 46.7vh;
+    width: 316px;
     transform: translate(-50%, -50%);
     background-color: black;
     border: 0.05px solid rgba(0, 0, 0, 0.075);
