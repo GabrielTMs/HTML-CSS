@@ -28,4 +28,11 @@
            h2:active {
             background-color: #253f64;
            }
+           a {
+            text-decoration: none;
+           }
+
+           body {
+            background-color: #ffffff;
+           }
            
