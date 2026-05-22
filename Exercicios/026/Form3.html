@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario números</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <p><label for="inom">Nome</label> <input type="text" name="nome" id="inom" required placeholder="Nome da criança"></p>
+        <p><label for="inasc">Data de nascimento</label> <input type="month" name="nasc" id="inasc" required></p>
+        <p><label for="idat">Dia</label> <input type="date" name="dat" id="idat" required></p>
+        <p><label for="ihor">Hora</label> <input type="time" name="hor" id="ihor" required></p>
+        <p><label for="imed">Média de aparência</label><input type="number" name="med" id="imed" required min="0" max="10" placeholder="0 a 10" step="0.25" autocomplete="cc-number"></p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+
+    </form>
+    
+</body>
+</html>
