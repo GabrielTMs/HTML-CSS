@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário tel e e-mail</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fazendo um formulário com teleforne e e-mail</h1>
+    <fieldset>
+        <legend>Dados de nascimento</legend>
+        <form action="cadastro.php" method="get">
+            <p><label for="iema">E-mail</label>
+                <input type="email" name="ema" id="iema" required autocomplete="email"></p>
+            <p><label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$"></p>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+        
+        
+        </form>
+    </fieldset>
+    
+</body>
+</html>
