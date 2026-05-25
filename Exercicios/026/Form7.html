@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 7</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário países estados e profissões.</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ipaises">Países</label> 
+            <select name="paises" id="ipaises">
+                <option value="" selected>Escolha</option>
+                    <option value="BR">Brasil</option>
+                    <option value="FR">França</option>
+                    <option value="IN">Índia</option>
+                    <option value="RU">Rússia</option>
+                    <option value="USA">Estados Unidos</option>
+                    <option value="CN">China</option>
+                    <option value="ES">Espanha</option>
+            </select>
+        </p>
+        <p>
+            <label for="iestados">Estados</label>
+            <select name="paises" id="iestados">
+                <option value="" selected>Escolha</option>
+                <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </option>
+                </optgroup>
+                
+                <optgroup label="Região Centro-Oeste">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goías</option>
+                </optgroup>
+        </p>
+        
+        <p>
+            <label for="ipro">Profissão</label>
+            <input type="text" name="pro" id="ipro" list="ilist">
+            <datalist id="ilist">
+                <option value="DEV">Developer</option>
+                <option value="3D">Modelador</option>
+                <option value="EDITOR">Editor de vídeo</option>
+            </datalist>
+        </p>
+        <p>Mensagem</p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+    
+</body>
+</html>
