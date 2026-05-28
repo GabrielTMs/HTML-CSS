@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:400px) and (max-width:720px) {
+
+    body {
+        background: black url(../Imagens/back-phone.jpg) center bottom/ cover no-repeat fixed;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #cel {
+        display: block;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width:720px) and (max-width:920px) {
+
+    body {
+        background: black url(../Imagens/back-tablet.jpg) center bottom/ cover no-repeat fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #tablet {
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width:920px) and (max-width:1200px) {
+
+    body {
+        background: black url(../Imagens/back-pc.jpg) center top/ cover no-repeat fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #pc {
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+
+    body {
+        background: black url(../Imagens/back-tv.jpg) center top/ cover no-repeat fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #tv {
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+@media print {
+    #print {
+        display: block;
+        margin: auto;
+    }
+    
+    body {
+        width: 96vw;
+        height: 97vh;
+        font-family: Arial, Helvetica, sans-serif;
+}
+    header {
+        font-size: 1.1em;
+        padding: 15px 0px 30px 0px;
+        text-align: center;
+    }
+    main {
+        background-color: white;
+        max-width: 800px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 0px 10px 0px 10px;
+    
+}
+    
+}

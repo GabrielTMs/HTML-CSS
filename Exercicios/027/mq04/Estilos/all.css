@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 96vw;
+    height: 97vh;
+}
+header {
+        font-size: 1.1em;
+        padding: 15px 0px 30px 0px;
+        text-align: center;
+    }
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px 10px 0px 10px;
+    
+}
+    #pc {display: none;}
+    #cel {display: none;}
+    #impressao {display: none;}
+    #tablet {display: none;}
+    #tv {display: none;}
+    #print {display: none;}
+
