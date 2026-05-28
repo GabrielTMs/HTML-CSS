@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    
+}
+header h1 {
+    font:normal bold 2.5em Arial, Helvetica, sans-serif;
+    color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 27px 10px 0px 10px;
+    margin-bottom: 16px;
+    
+}
+header p {
+    font:normal 1.2em Arial, Helvetica, sans-serif;
+    color: rgb(236, 236, 236);
+    text-align: center;
+}
+header {
+    background-color: rgb(50, 60, 68);
+    width: 100%;
+
+}
+#menuburg {
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: rgb(68, 76, 148);
+    border-radius: 3px;
+    margin-top: 36px;
+    padding: 3px 0px 3px 0px;
+}
+#menuburg:hover {
+    background-color: rgb(28, 34, 87);
+    color: white;
+    transition-duration: 0.1s;
+    
+}
+#menuburg:active {
+    background-color: rgb(100, 108, 179);
+    color: rgb(0, 0, 0);
+}
+/*nav > a {
+    text-decoration: none;
+    color: rgb(222, 187, 238);
+    font:normal 1em Arial, Helvetica, sans-serif;
+    margin-right: 8px;
+    background-color: rgba(60, 70, 116, 0.911);
+    padding: 5px 8px 5px 8px;
+    border-radius: 6px;
+} */  /*Configuração pra desktop*/
+nav#links > a {
+    margin: auto;
+    text-align: center;
+    display: block;
+    border: 2px solid rgb(50, 60, 68);
+    text-decoration: none;
+    color: rgb(188, 137, 255);
+    font:normal 1em Arial, Helvetica, sans-serif;
+    background-color: rgba(60, 70, 116, 0.911);
+    padding: 5px 8px 5px 8px;
+    border-radius: 6px;
+}
+
+
+nav#links {
+    padding-bottom: 2px;
+    margin-top: 2px;
+    display: none;
+    
+}
+
+main {
+    font:normal 1.1em Arial, Helvetica, sans-serif;
+    
+}
+h2.subti {
+    margin-bottom: 10px;
+    padding:20px 10px 0px 10px;
+    font-size: 1.5em;
+}
+section > p {
+    padding:0px 10px 0px 10px;
+    line-height: 25px;
+}
+p {
+    margin-bottom: 10px;
+}
