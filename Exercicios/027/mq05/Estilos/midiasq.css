@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:720px){
+    
+nav#links {
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    margin-top: 30px;
+}
+nav#links > a {
+    text-decoration: none;
+    display: inline;
+    color: rgb(188, 137, 255);
+    font:normal 1em Arial, Helvetica, sans-serif;
+    margin-right: 8px;
+    background-color: rgba(60, 70, 116, 0.911);
+    padding: 5px 8px 5px 8px;
+    border-radius: 6px; 
+}
+#menuburg {
+    display: none;
+}
+    
+}

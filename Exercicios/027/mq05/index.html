@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Estilos/midiasq.css" media="screen">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Site usando media query</h1>
         <p>Com método mobile first.</p>
@@ -37,6 +37,14 @@
             else {
                 links.style.display='block';
             }
+        }
+        function mudouTamanho() {
+            var body = document.querySelector("body");
+                if (window.innerWidth >= 720) {
+                    links.style.display = 'block'
+                }  else {
+                    links.style.display= 'none'
+                }
         }
     </script>
 </body>

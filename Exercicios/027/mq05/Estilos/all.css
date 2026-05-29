@@ -38,6 +38,7 @@ header {
     background-color: rgb(28, 34, 87);
     color: white;
     transition-duration: 0.1s;
+    cursor: pointer;
     
 }
 #menuburg:active {
@@ -65,7 +66,10 @@ nav#links > a {
     padding: 5px 8px 5px 8px;
     border-radius: 6px;
 }
-
+nav#links > a:hover {
+    background-color: rgba(92, 108, 179, 0.911);
+    color: rgb(58, 41, 80);
+}
 
 nav#links {
     padding-bottom: 2px;
@@ -76,6 +80,9 @@ nav#links {
 
 main {
     font:normal 1.1em Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0px auto;
+   
     
 }
 h2.subti {
