@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .conteiner {
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row wrap;
+            height: 500px;
+            align-content: flex-start;
+        }
+        .item {
+            background-color: rgb(204, 70, 70);
+            flex-basis: 160px ;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+        #stret {
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="conteiner">
+        <div class="item">A</div>
+        <div class="item" id="stret">Anos luz do hemisfério sul</div>
+        <div class="item">C</div>
+        <div class="item">Conteudo maior possível para testar isso</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+    </main>
+    
+</body>
+</html>
