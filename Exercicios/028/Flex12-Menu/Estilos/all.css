@@ -14,17 +14,27 @@ body {
 header {
     background-color: rgb(48, 48, 122);
     width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
 }
 
 h1 {
     color: white;
     font: normal bold 2.3em Arial, Helvetica, sans-serif;
-    padding: 20px 20px 0px 14px;
+    padding: 20px 20px 20px 14px;
+    flex: 0 0 600px;
+    border: 1px dashed black;
+    
 }
 
 nav {
-    margin-top: 40px;
-    padding: 0px 10px 25px 33px;
+    border: 1px dashed black;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    padding: 0px 10px 15px 0px;
 }
 
 a {
@@ -33,9 +43,11 @@ a {
     background-color: rgb(132, 60, 199);
     color: rgb(255, 255, 255);
     padding: 8px;
-    margin-right: 9px;
+    margin-left: 9px;
     border-radius: 8px;
     font-size: 1em;
+    text-align: center;
+    flex: 0 0 120px ;
 }
 
 a:hover {
