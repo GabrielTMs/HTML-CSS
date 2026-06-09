@@ -6,11 +6,13 @@
     <title>Menu</title>
     <link rel="stylesheet" href="Estilos/all.css">
     <link rel="stylesheet" href="Estilos/screens.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
         <h1>Testando site com Flexbox.</h1>
-        <nav>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="links">
             <a href="#">Opção 1</a>
             <a href="#">Opção 2</a>
             <a href="#">Opção 3</a>
@@ -25,6 +27,16 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla nemo similique eaque minima mollitia deleniti, exercitationem soluta laudantium laboriosam qui officia voluptatibus tempora perferendis, suscipit quos voluptatem odit consequuntur. Sit.</p>
         </section>
     </main>
-    
+    <script>
+        function clickMenu() {
+            var links = document.querySelector("#links");
+                if (links.style.display == 'flex') {
+                    links.style.display = 'none' 
+            }
+            else {
+                links.style.display='flex'
+            }
+        }
+    </script>
 </body>
 </html>

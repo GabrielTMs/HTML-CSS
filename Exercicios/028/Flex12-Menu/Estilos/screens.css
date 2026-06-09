@@ -6,25 +6,40 @@
         flex-flow: column wrap;
         justify-content: flex-start;
         align-content: center;
+        padding-bottom: 10px;
     }
     h1 {
         text-align: center;
         padding: 10px 10px 0px 10px;
         flex: 0 0 100px;
     }
-    nav {
-        padding: 0px 10px 15px 10px;
+    nav#links {
+        padding: 0px 10px 8px 10px;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-content: center;
+        display: none;
     }
 
     a {
         margin-top: 10px;
         margin-left: 0px;
         flex: 0 0 auto;
-        
-        align-self: flex-end;
+    }
+    span.material-symbols-outlined {
+    display: block;
+    background-color: rgb(132, 60, 199);
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    }
+    span.material-symbols-outlined:hover {
+    border: 1px solid white;
+    background-color: rgb(162, 74, 245);
+    }
+    span.material-symbols-outlined:active {
+    background-color: rgb(104, 64, 214);
     }
 }

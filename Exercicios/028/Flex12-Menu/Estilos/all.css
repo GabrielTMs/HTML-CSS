@@ -18,7 +18,8 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: center;
-    
+    transition: width .2s, height 0.2s;
+    transition-timing-function: ease;
 }
 
 h1 {
@@ -26,12 +27,12 @@ h1 {
     font: normal bold 2.3em Arial, Helvetica, sans-serif;
     padding: 20px 20px 20px 14px;
     flex: 0 0 520px;
-    border: 1px dashed black;
+    /*border: 1px dashed black;*/
     
 }
 
-nav {
-    border: 1px dashed black;
+nav#links {
+    /*border: 1px dashed black;*/
     display: flex;
     flex-flow: row wrap;
     align-content: flex-end;
@@ -81,3 +82,9 @@ p {
     padding: 10px;
 }
 
+span.material-symbols-outlined {
+    display: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+}
