@@ -77,6 +77,6 @@ article {
 }
 
 #video {
-    flex: 1 0 500px;
+    flex: 1 0 450px;
     border: 1px dashed red;
 }
