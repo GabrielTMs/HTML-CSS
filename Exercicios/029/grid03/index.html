@@ -7,16 +7,12 @@
     <style>
         div#prin {
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto auto;
-            align-items: center;
-            justify-items: center;
-            align-content: space-between;
-            justify-content: space-evenly;
+            grid-template: 40% repeat(2, 100px)/ 1fr 2fr 1fr;
+            place-items: normal normal;
             gap: 10px;
             border: 1px solid black;
-            height: 300px;
-
+            height: 500px;
+            grid-auto-flow: row;
         }
         div {
             border: 1px dashed red;
