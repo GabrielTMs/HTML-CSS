@@ -4,6 +4,14 @@
     font-family: 'StarWars';
     src: url(../Fontes/starjedi/Starjhol.ttf) format('truetype') ;
 }
+@font-face {
+    font-family: 'StarWarsNorm';
+    src: url(../Fontes/starjedi/Starjedi.ttf) format('truetype') ;
+}
+@font-face {
+    font-family: 'MenuStar';
+    src: url(../Fontes/starjout/Starjout.ttf) format('truetype') ;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -15,7 +23,10 @@ body {
 header {
     display: grid;
     grid-template:111px auto/ 100%;
-    background-image: linear-gradient(to right, black, rgb(52, 52, 219));
+    background-image: url(../Imagens/FundoHeader.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     align-items: center;
     gap: 18px;
 }
@@ -28,10 +39,24 @@ header h1 {
 }
 header nav {
     grid-row: 2/3;
-    padding: 0px 10px 12px 15px;
+    padding: 0px 10px 10px 15px;
 }
-a {
+header a {
     margin-right: 10px;
+    font: normal 1em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+header a:hover {
+    background-image: linear-gradient(to top,rgb(54, 115, 165),  rgb(127, 198, 231), rgb(54, 115, 165));
+    border-radius: 8px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
+    transition-duration: .1s;
+}
+header a:active {
+    background-image: none;
+    background-color: rgb(199, 233, 255);
 }
 iframe {
     border: 1px solid red;
