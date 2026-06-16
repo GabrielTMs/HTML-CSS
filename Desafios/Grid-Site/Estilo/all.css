@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'StarWars';
+    src: url(../Fontes/starjedi/Starjhol.ttf) format('truetype') ;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+      width: 100%;
+      height: 100vh;
+}
+header {
+    display: grid;
+    grid-template:111px auto/ 100%;
+    background-image: linear-gradient(to right, black, rgb(52, 52, 219));
+    align-items: center;
+    gap: 18px;
+}
+header h1 {
+    grid-row: 1/2;
+    color: rgb(212, 210, 67);
+    font: normal 3em 'StarWars',Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+header nav {
+    grid-row: 2/3;
+    padding: 0px 10px 12px 15px;
+}
+a {
+    margin-right: 10px;
+}
 iframe {
     border: 1px solid red;
 }
