@@ -254,12 +254,45 @@ section#Formu p {
     color: rgb(211, 203, 92);
 }
 
+section#Formu div#SubmitForm {
+    padding-top: 24px;
+}
 
 input {
     background-color: rgb(122, 122, 122);
     border: rgba(34, 101, 128, 0.473);
     width: 151px;
     border-radius: 3px;
+    font-size: .8em;
+    padding: 2px 2px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+span.material-symbols-outlined {
+    color: white;
+}
+
+input:focus-within {
+    background-color: white;
+}
+
+input[type=submit] {
+    padding: 5px;
+    color: rgb(226, 226, 226);
+    background-color: rgba(75, 163, 75, 0.459);
+    border: 1px double rgb(83, 185, 83) ;
+}
+
+input[type=submit]:hover {
+    border: 1px double rgb(140, 250, 140);
+    background-color: rgba(75, 163, 75, 0.712);
+}
+
+input[type=submit]:active {
+    background-color: rgba(105, 216, 105, 0.836);
 }
 
 footer img {
