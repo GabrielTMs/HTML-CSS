@@ -297,7 +297,8 @@ input[type=submit]:active {
 footer {
     display: grid;
     grid-template: 1fr/ 1fr 1fr;
-    align-items: center;
+    align-items: start;
+    justify-items: center;
     background-image: url(../Imagens/Patterns/Footer.png);
     background-size: cover;
     background-position: right center;
@@ -320,10 +321,37 @@ footer h2 {
 
 div#Atendimento {
     grid-row: 1/-1;
+    padding: 24px 10px;
+}
+
+div#Redes {
     padding: 20px 10px;
 }
 
+div#Redes img {
+    margin-top: 10px;
+    padding: 0px 6px;
+}
+
+div#Redes p {
+   font: normal .9em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+   color: rgb(32, 127, 190); 
+}
+
 footer img {
+    width: 100%;
     max-width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border:  1px solid transparent;
+
+}
+
+footer a {
+    display: inline-block;
+}
+
+footer img:hover {
+    border: 1px solid #8a4c2b;
     border-radius: 50%;
 }
