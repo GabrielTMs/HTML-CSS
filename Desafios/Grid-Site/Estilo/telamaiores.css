@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media screen and (min-width:625px) and (max-width:924px) {
+
+    section#Formu {
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: flex-start;
+    }
+    
+    div.campo {
+        position: relative;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    div.campo p {
+        padding: 0px 10px;
+    }
+
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    
+    span.material-symbols-outlined {
+        position: absolute;
+        display: none;
+        top: 3px;
+        left: -18px;
+    }
+
+    input {
+        width: 98%;
+        max-width: 300px;
+        padding: 5px 2px;
+    }
+
+    div#SubmitForm > input[type=submit] {
+    text-align: center;
+    align-self: center;
+}
+
+    section#Formu div#SubmitForm {
+    padding: 10px 10px;
+    width: 92%;
+    
+}
+}
+
+@media screen and (min-width:924px) {
+
+    section#Formu {
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: flex-start;
+    }
+
+    section#Formu p#titForm {
+        font-size: 1.5em;
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+
+    div.campo {
+        position: relative;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    div.campo p {
+        padding: 0px 10px;
+        font-size: 1.2em;
+    }
+
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    
+    span.material-symbols-outlined {
+        position: absolute;
+        top: 4px;
+        left: 28px;
+    }
+
+    input {
+        font-size:1em;
+        padding: 5px 2px;
+        max-width: 500px;
+        width: 98%;
+    }
+
+    input[type=submit] {
+    font-size: 1.2em;
+}
+
+    div#SubmitForm > input[type=submit] {
+    text-align: center;
+    align-self: center;
+}
+
+    section#Formu div#SubmitForm {
+    padding: 10px 10px;
+    width: 92%;
+    
+}
+}

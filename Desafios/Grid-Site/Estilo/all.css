@@ -255,13 +255,25 @@ section#Formu p {
 }
 
 section#Formu div#SubmitForm {
-    padding-top: 24px;
+    padding: 24px 10px 0px 10px;
+    
+}
+
+div.campo {
+    width: 100%;
+    max-width: 147px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+
+div.campo p {
+    padding: 0px 9px;
 }
 
 input {
     background-color: rgb(122, 122, 122);
     border: rgba(34, 101, 128, 0.473);
-    width: 151px;
     border-radius: 3px;
     font-size: .8em;
     padding: 2px 2px;
@@ -273,6 +285,7 @@ input::placeholder {
 
 span.material-symbols-outlined {
     color: white;
+    display: block;
 }
 
 input:focus-within {
@@ -283,7 +296,10 @@ input[type=submit] {
     padding: 5px;
     color: rgb(226, 226, 226);
     background-color: rgba(75, 163, 75, 0.459);
-    border: 1px double rgb(83, 185, 83) ;
+    border: 1px double rgb(83, 185, 83);
+    width: 100%;
+    max-width: 227px;
+    
 }
 
 input[type=submit]:hover {
@@ -353,5 +369,4 @@ footer a {
 
 footer img:hover {
     border: 1px solid #8a4c2b;
-    border-radius: 50%;
 }
