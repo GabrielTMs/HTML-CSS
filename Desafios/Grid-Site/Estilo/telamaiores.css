@@ -1,15 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (min-width:625px) and (max-width:924px) {
+@media screen and (min-width:625px) and (max-width:1000px) {
 
     section#Formu {
         display: flex;
         flex-flow: column nowrap;
         align-content: flex-start;
     }
+
+    section#Formu p#titForm {
+        font-size: 1.1em;
+    }
     
     div.campo {
-        position: relative;
+        
         width: 100%;
         padding-bottom: 10px;
     }
@@ -25,10 +29,9 @@
     }
     
     span.material-symbols-outlined {
-        position: absolute;
+        
         display: none;
-        top: 3px;
-        left: -18px;
+        
     }
 
     input {
@@ -47,14 +50,82 @@
     width: 92%;
     
 }
+
+footer {
+    grid-template: 1fr/ 1fr 2fr;
+    align-items: center;
+    justify-items: center;
 }
 
-@media screen and (min-width:924px) {
+footer p {
+font: normal 1.1em Arial, Helvetica, sans-serif;
+}
 
-    section#Formu {
+div#Atendimento {
+    padding: 24px 0px;
+}
+
+footer h2 {
+font: normal 1.1em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+
+}
+
+div#Redes {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-items: center;
+}
+
+div#Redes p {
+   font: normal 1.2em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+}
+
+div#Redes img {
+    padding: 0px 6px;
+}
+
+footer img {
+    width: 100%;
+    max-width: 55px;
+}
+
+}
+
+@media screen and (min-width:1000px) {
+
+h2.Subt1 {
+    font: normal 2.2em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 1px black;
+}
+h2.subts {
+    font: normal 1.5em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgba(11, 11, 15, 0.473);
+}
+
+div a {
+    font: normal 1.3em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+}
+p {
+    font: normal 1em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+}
+section#campIfram > h2 {
+    font: normal 1.5em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px rgb(11, 11, 15);
+}
+section#campIfram a {
+    font-size: 1.3em;
+}
+li {
+    font: normal 1em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px rgb(11, 11, 15);
+}
+
+section#Formu {
         display: flex;
         flex-flow: column nowrap;
         align-content: flex-start;
+        max-height: 500px;
     }
 
     section#Formu p#titForm {
@@ -66,12 +137,15 @@
     }
 
     div.campo {
-        position: relative;
+        
         width: 100%;
         padding-bottom: 10px;
     }
 
     div.campo p {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
         padding: 0px 10px;
         font-size: 1.2em;
     }
@@ -83,20 +157,20 @@
     }
     
     span.material-symbols-outlined {
-        position: absolute;
-        top: 4px;
-        left: 28px;
+        padding-right: 5px;
+        transform: translateY(15%);
     }
 
     input {
         font-size:1em;
         padding: 5px 2px;
+        width: 100%;
         max-width: 500px;
-        width: 98%;
     }
 
     input[type=submit] {
     font-size: 1.2em;
+    max-width: 500px;
 }
 
     div#SubmitForm > input[type=submit] {
@@ -109,4 +183,42 @@
     width: 92%;
     
 }
+
+footer {
+    grid-template: 1fr/ 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+}
+div#Atendimento {
+    padding: 24px 0px;
+}
+div#Redes {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-items: center;
+}
+
+nav {
+    margin-left: 10px;
+}
+
+footer img {
+    width: 100%;
+    max-width: 55px;
+
+}
+
+
+footer p {
+font: normal 1.2em Arial, Helvetica, sans-serif;
+}
+footer h2 {
+font: normal 1.2em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+
+}
+div#Redes p {
+   font: normal 1.2em 'StarWarsNorm', Arial, Helvetica, sans-serif;
+}
+
 }
