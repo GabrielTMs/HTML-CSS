@@ -254,21 +254,20 @@ section#Formu p {
     color: rgb(211, 203, 92);
 }
 
-section#Formu div#SubmitForm {
-    padding: 24px 10px 0px 10px;
-    
+form {
+    text-align: center;
 }
 
 div.campo {
-    width: 100%;
-    max-width: 147px;
-    margin: 0px auto;
-    padding: 0px 10px;
+    padding: 0px 12px;
 }
 
 
 div.campo p {
-    padding: 0px 9px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 0px;
 }
 
 input {
@@ -276,7 +275,9 @@ input {
     border: rgba(34, 101, 128, 0.473);
     border-radius: 3px;
     font-size: .8em;
-    padding: 2px 2px;
+    padding: 5px 2px;
+    width: 100%;
+    max-width: 250px;
 }
 
 input::placeholder {
@@ -285,11 +286,15 @@ input::placeholder {
 
 span.material-symbols-outlined {
     color: white;
-    display: block;
+    padding-bottom: 10px;
 }
 
 input:focus-within {
     background-color: white;
+}
+
+section#Formu div#SubmitForm {
+    padding: 24px 10px 0px 10px;
 }
 
 input[type=submit] {
