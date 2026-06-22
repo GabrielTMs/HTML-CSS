@@ -66,7 +66,8 @@ main {
     grid-template: 1fr 1fr/ repeat(3, 1fr);
     justify-items: center;
     gap: 7px;
-    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 h2.Subt1 {
@@ -325,6 +326,8 @@ footer {
     margin-top: 30px;
     border: 1px solid #8a4c2b;
     border-radius: 8px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 footer p {
