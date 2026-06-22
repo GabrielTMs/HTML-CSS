@@ -94,6 +94,15 @@ footer img {
 
 @media screen and (min-width:1000px) {
 
+body {
+    
+}
+
+main {
+    grid-template: 1fr 2fr/ repeat(3, 1fr);
+    
+}
+
 h2.Subt1 {
     font: normal 2.2em 'StarWarsNorm', Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 1px black;
@@ -125,7 +134,7 @@ section#Formu {
         display: flex;
         flex-flow: column nowrap;
         align-content: flex-start;
-        max-height: 500px;
+        max-height: 800px;
     }
 
     section#Formu p#titForm {
